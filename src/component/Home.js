@@ -8,8 +8,8 @@ export default function(){
                 <div className="child1">
                     <h1>Select Your New Perfect Style</h1>
                 </div>
-                <div className="child2"></div>
-                <div className="child3"></div>
+                <div className="child2">skfk</div>
+                <div className="child3">sfdkfk</div>
             </div>
         </>
         

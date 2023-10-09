@@ -39,9 +39,20 @@
     .parentDiv {
         display: flex;
         flex-direction: column;
+        
+    }
+
+    .child2{
+        display: none;
     }
 
     .child1{
-        flex
-    }    
+        margin-right: 16px;
+    }
+
+    .child3{
+        margin-right: 16px;
+    }
+
+    
 }

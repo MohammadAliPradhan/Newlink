@@ -9,10 +9,12 @@ import MainSec2 from './component/MainSec2';
 function App() {
   return (
     <>
+    <div>
     <NavBar />
     <Home />
     <MainSec1 />
     MainSec2
+    </div>
     </>
 
   );

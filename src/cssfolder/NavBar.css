@@ -5,11 +5,9 @@
     background-color: #FFFFFF;
     grid-template-columns: 20% auto 24%;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .navdiv1 {
-    margin-left: 20px;
     height: 8vh;
     background-color: red;
 }
@@ -21,9 +19,43 @@
     gap: 8px;
 }
 
-.navdiv3{
+.navdiv3 {
     height: 8vh;
-    margin-right: 20px;
     background-color: maroon;
 }
 
+
+
+@media (max-width: 768px) {
+    .parentNav {
+        display: flex;
+        width: 100%;
+        height: 12vh;
+        background-color: #FFFFFF;
+        align-items: center;
+    }
+
+    .navdiv1 {
+        height: 8vh;
+        background-color: red;
+    }
+    
+    .navdiv2 {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        gap: 8px;
+    }
+    
+    .navdiv3 {
+        height: 8vh;
+        background-color: maroon;
+    }
+
+   
+
+
+
+
+
+}

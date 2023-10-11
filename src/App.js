@@ -3,7 +3,7 @@ import Home from "./component/Home.js"
 import './App.css';
 import NavBar from './component/NavBar.js';
 import MainSec1 from './component/MainSec1';
-import MainSec2 from './component/MainSec2';
+import CardBox from './component/CardBox';
 
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
     <NavBar />
     <Home />
     <MainSec1 />
-    MainSec2
+    <CardBox />
     </div>
     </>
 

@@ -1,0 +1,20 @@
+.parentCard{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+ }
+
+ .childCard{
+    background-color: #EA0000;
+ }
+
+
+@media (max-width: 768px) {
+    .parentCard{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #EA0000;
+        align-items: center;
+    } 
+}
